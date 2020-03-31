@@ -1,6 +1,6 @@
 //DO NOT CHANGE ANYTHING EXCEPT ADDING LINES TO THE Changelog
 
-LET vLastReload = ReloadTime() - (1/6);
+LET vLastReload = ReloadTime() - 4/24;
 
 Changelog:
 Load *,RowNo() as ID;
@@ -14,5 +14,3 @@ Version,Author,Date,Change
 
 LET vAppVersion = Peek('Version', NoOfRows('Changelog')-1, 'Changelog');
 LET vCurrentDev = Peek('Author', NoOfRows('Changelog')-1, 'Changelog');
-
-//test PR
