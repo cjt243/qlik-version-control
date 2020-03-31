@@ -4,8 +4,6 @@ LOAD
     product,
     qty,
     revenue,
-    region,
-    revenue/qty as revenue_per_item,
-    (.2)*(revenue/qty) as profit
+    region
 FROM [lib://Qlik Demo Apps:DataFiles/store.csv]
 (txt, codepage is 28591, embedded labels, delimiter is ',', msq);
