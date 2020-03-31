@@ -1,6 +1,6 @@
 //DO NOT CHANGE ANYTHING EXCEPT ADDING LINES TO THE Changelog
 
-LET vLastReload = ReloadTime();
+LET vLastReload = ReloadTime() - (1/6);
 
 Changelog:
 Load *,RowNo() as ID;
@@ -8,6 +8,7 @@ Load * Inline [
 Version,Author,Date,Change
 1.0,Cullin,3/27/2020,Creating initial app and visuals
 1.1,Taj,3/27/2020,Test changelog capability
+1.2,Mike,3/31/2020,
 ];
 
 
