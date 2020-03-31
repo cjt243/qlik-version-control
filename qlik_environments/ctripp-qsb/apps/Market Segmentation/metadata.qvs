@@ -1,6 +1,6 @@
 //DO NOT CHANGE ANYTHING EXCEPT ADDING LINES TO THE Changelog
 
-LET vLastReload = ReloadTime() - (1/6);
+LET vLastReload = ReloadTime() - 4/24;
 
 Changelog:
 Load *,RowNo() as ID;
