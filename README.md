@@ -5,9 +5,9 @@
 
 ## Features
 
-- Folder structure that allows multiple environments (QSEoW, QCS, etc)
+- Folder structure to allow managing script for multiple applications 
 - Two branches (master and test) - the master branch is used for production apps, and the test is used for development
-- Whenever a commit is pushed or a PR is merged, the respective branch will sync to an S3 bucket (test or prod based on the branch) - *uses a GitHub Action: [jakejarvis s3-sync action](https://github.com/jakejarvis/s3-sync-action)*
+- Whenever the code is updated, the respective branch will sync to an S3 bucket (test or prod based on the branch) - *uses a GitHub Action: [jakejarvis s3-sync action](https://github.com/jakejarvis/s3-sync-action)*
 - Qlik Sense Cloud uses the Amazon S3 connector to access the file, and use the load script by leveraging a `Must_Include` statement
 
 
