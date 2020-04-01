@@ -13,8 +13,8 @@
 
 ## GitHub Project Structure - what gets synced to my S3 Bucket
 
-    | qlik_environments
-    |----   ctripp-qsb (represents my Qlik Sense Business tenant)
+    | qlik_environment
+    |----   apps
     |--------   Market Segmentation (folder represents an app)
     |------------   LoadScript (folder containing components of the load script)
     |----------------   market_segmentation.qvs (load script file)
