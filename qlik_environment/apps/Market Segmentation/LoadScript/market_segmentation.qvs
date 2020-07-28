@@ -1,10 +1,16 @@
-Store:
+Orders:
 LOAD
-    reps,
-    product,
-    qty,
-    revenue,
-    region,
-    revenue/qty as price_per_item
-FROM [lib://Qlik Demo Apps:DataFiles/store.csv]
-(txt, codepage is 28591, embedded labels, delimiter is ',', msq);
+    OrderID,
+    OrderDate,
+    CustomerID,
+    EmployeeID,
+    ShipperID,
+    ProductID,
+    Sales,
+    Costs,
+    Profit,
+    Quantity,
+    Discount,
+    Freight
+FROM [lib://qlik-data-store/example-data/QlikSenseWorkShop.xlsx]
+(ooxml, embedded labels, table is Orders);
